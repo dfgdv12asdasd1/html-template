@@ -1,0 +1,25 @@
+// Common styles of the project
+
+/* document style */ 
+html,body,*:after,*:before,*{
+    font-family: $base-font;
+}
+html,body{
+    font-size: 16px;
+}
+
+.document{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    &__content{
+        flex: auto;
+    }
+    &__footer{
+        flex-shrink: 0;
+    }
+}
+.section{
+    padding-top: 60px;
+    padding-bottom: 75px;
+}

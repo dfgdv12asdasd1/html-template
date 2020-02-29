@@ -1,0 +1,64 @@
+.html {
+    font-size: 1rem;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 700;
+    }
+
+    h1 {}
+
+    h2 {}
+
+    h3 {}
+
+    h4 {}
+
+    h5 {}
+
+    h6 {}
+
+    p {}
+
+    b,
+    strong {}
+
+    a:not([class]) {}
+
+    blockquote,
+    q,
+    cite {}
+
+    code {}
+
+    em,
+    i {}
+
+    ul {}
+
+    li {}
+
+    ol {}
+
+    table {
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        tr {}
+
+        td {}
+
+        th {}
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
